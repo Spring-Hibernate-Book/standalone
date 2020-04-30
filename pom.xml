@@ -28,15 +28,17 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.0</version>
+					<version>3.5.1</version>
 					<configuration>
-						<release>11</release>
+						<source>1.8</source>
+						<target>1.8</target>
+						<verbose>true</verbose>
 					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.eclipse.jetty</groupId>
 					<artifactId>jetty-maven-plugin</artifactId>
-					<version>10.0.0-alpha0</version>
+					<version>9.2.3.v20140905</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
